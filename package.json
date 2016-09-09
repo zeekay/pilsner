@@ -1,0 +1,51 @@
+{
+  "name": "pilsner",
+  "version": "0.0.1",
+  "description": "Crisp and effervescent logging for browser and server.",
+  "keywords": [
+    "log",
+    "loggers",
+    "logging",
+    "pilsner"
+  ],
+  "homepage": "http://github.com/zeekay/pilsner",
+  "bugs": {
+    "url": "https://github.com/zeekay/pilsner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zeekay/pilsner.git"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zeekay/pilsner/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prepublish": "cake build-min",
+    "test": "cake build && cake test"
+  },
+  "author": "Zach Kelling <zk@monoid.io> (http://zeekay.io)",
+  "dependencies": {
+    "postmortem": "0.2.4",
+    "raven": "~0.5.1",
+    "winston": "~0.7.1"
+  },
+  "devDependencies": {
+    "cake-publish": "0.1.1",
+    "cake-test": "0.1.0",
+    "cake-version": "0.1.9",
+    "coffee-script": "1.10.0",
+    "raven": "0.12.1",
+    "shortcake": "1.1.18"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
