@@ -1,6 +1,8 @@
 # pilsner [![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Dependency Status][dependency-img]][dependency-url] [![Gitter chat][gitter-img]][gitter-url]
 #### Crisp and effervescent logging for browser and server.
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zeekay/pilsner.svg)](https://greenkeeper.io/)
+
 Grainy and crackery malt flavor with a soft, floral bitterness.
 
 [travis-img]:     https://img.shields.io/travis/zeekay/pilsner.svg
